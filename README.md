@@ -41,4 +41,4 @@ Partez du principe que l'app existe, mais qu'il n'y a rien (ni controlleur, ni l
 ---
 Bonne chance 💪!
 
-Si vous avez la moindre question => mathieu@workelo.eu
+Si vous avez la moindre question ✉️mathieu@workelo.eu
