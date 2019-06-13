@@ -33,9 +33,9 @@ Une tâche peut être marquée comme faite ou pas faite et à une date d'échéa
 (A) Les notifications sont visibles partout dans l'application (à droite sur la navbar) : l'onboardee peut les consulter.
 (B) Les notifications sont envoyées une fois par semaine, le mardi, à l'onboardee par email.
 
-**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** (avec un schéma dessiné par exemple ou des bullet-points) la manière dont vous construiriez cette logique (A et B).
-
 Partez du principe que l'app existe, mais qu'il n'y a rien (ni controlleur, ni librairie, etc.) permettant de gérer les notifications.
+
+**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** (avec un schéma dessiné par exemple ou des bullet-points) la manière dont vous construiriez cette logique (A et B).
 
 
 ---
