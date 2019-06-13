@@ -38,4 +38,7 @@ Une tâche peut être marquée comme faite ou pas faite et à une date d'échéa
 Partez du principe que l'app existe, mais qu'il n'y a rien (ni controlleur, ni librairie, etc.) permettant de gérer les notifications.
 
 
+---
+Bonne chance 💪!
+
 Si vous avez la moindre question => mathieu@workelo.eu
