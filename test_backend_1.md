@@ -35,7 +35,9 @@ Une tâche peut être marquée comme `faite` ou `pas faite` et à une `date d'é
 
 Partez du principe que l'app existe, mais qu'il n'y a rien (ni controlleur, ni librairie, etc.) permettant de gérer les notifications.
 
-**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** la manière dont vous construiriez cette logique de notification (A et B). Vous pourrez par exemple vous proposer un schéma dessiné ou des bullet-points détaillant les différents blocs logiques à mettre en place et leur rôle.
+**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** la manière dont vous construiriez cette logique de notification (A et B). Vous pourrez par exemple proposer un schéma dessiné ou des bullet-points détaillant les différents blocs logiques à mettre en place et leur rôle.
+
+Il est important que cette fonctionnalité de notification ralentisse le moins possible le fonctionnement de l'app - le chargement des pages en particulier.
 
 
 ---
