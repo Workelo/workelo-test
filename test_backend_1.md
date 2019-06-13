@@ -1,9 +1,9 @@
 # Tests de recrutement Workelo
 
 ## Algorithmique
-Afin d'aider les RH à **planifier les réunions** des nouvelles recrues, votre mission consiste à développer un méthode permettant de trouver des créneaux disponibles entre 2 agendas.
+Afin d'aider les RH à **planifier les réunions** des nouvelles recrues, votre mission consiste à développer une méthode permettant de trouver des créneaux disponibles entre 2 agendas.
 
-A partir de de l'API de Google Calendar, il est possible de récupérer les busy slots d'un employé, sur un interval donnée, sous la forme :
+A partir de l'API de Google Calendar, il est possible de récupérer les busy slots d'un employé, sur un intervalle donnée, sous la forme :
 ```
 [
   {
@@ -19,10 +19,10 @@ A partir de de l'API de Google Calendar, il est possible de récupérer les busy
 ```
 
 Partez du principe que :
-1. vous avez 2 tableaux de busy slots (sandra_busy_slots et andrew_busy_slots) pour une semaine donnée
+1. vous avez 2 tableaux de busy slots (`sandra_busy_slots` et `andrew_busy_slots`) pour une semaine donnée
 2. une journée professionnelle commence à 9h30 et se termine à 18h
 
-Développez une méthode prenant comme argument les deux tableaux ainsi que la durée du créneau souhaité et **retournant un tableau de créneau disponible**.
+Développez une méthode prenant comme argument les deux tableaux ainsi que la durée du créneau souhaité (par exemple 1h) et **retournant un tableau de créneau disponible**.
 
 
 ## Back-end
@@ -35,7 +35,7 @@ Une tâche peut être marquée comme faite ou pas faite et à une date d'échéa
 
 Partez du principe que l'app existe, mais qu'il n'y a rien (ni controlleur, ni librairie, etc.) permettant de gérer les notifications.
 
-**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** (avec un schéma dessiné par exemple ou des bullet-points) la manière dont vous construiriez cette logique (A et B).
+**L'objectif ici n'est pas d'entrer dans le code, mais de décrire** (avec un schéma dessiné par exemple ou des bullet-points ou ce que vous préférez) la manière dont vous construiriez cette logique de notifciation (A et B).
 
 
 ---
