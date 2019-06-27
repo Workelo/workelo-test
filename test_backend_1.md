@@ -22,7 +22,9 @@ Partez du principe que :
 1. vous avez 2 tableaux de busy slots (`sandra_busy_slots` et `andrew_busy_slots`) pour une semaine donnée
 2. une journée professionnelle commence à 9h30 et se termine à 18h
 
-Développez une méthode prenant comme argument les deux tableaux ainsi que la durée du créneau souhaité (par exemple 1h) et **retournant un tableau de créneau disponible**.
+Développez une méthode prenant comme argument les deux tableaux ainsi que la durée du créneau souhaité (par exemple 1h) et **retournant un tableau de créneaux disponibles**.
+
+*Pour simplifier retournez le nombre maximum de créneaux mutuellement exclusifs. Par exemple entre 14h et 16h il y a 2 créneaux exclusifs d'une heure : 14h-15h et 15h-16h (on ne souhaite pas içi avoir les possibilités du genre 14h01-15h01, 14h02-15h02, etc.)*
 
 
 ## Back-end
