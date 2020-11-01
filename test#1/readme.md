@@ -28,6 +28,7 @@ Donc dans l'exemple ci-dessus, il faut comprendre que Sandra est occupée le 1er
 Pas besoin de vous connecter à l'API de Google, on vous a préparé 2 tableaux avec les busy slots de Sandra (`input_sandra.json`) et Andy (`input_andy.json`).
 
 **👉 Que devez-vous faire ?**
+
 A partir des 2 tableaux et à partir de la durée du créneau souhaité (par exemple 1h) vous devez créer une méthode qui retourne **les créneaux disponibles**.
 
 Quelques hypothèses pour vous simplifier la vie
