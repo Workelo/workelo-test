@@ -1,4 +1,4 @@
-# Test #1 (Algo - Calendrier)
+# Test #1 (Algo - 📆 Calendrier)
 
 ## Objectif
 Il s'agit d'un véritable problème auquel nous avons été confronté 🤔 : comment trouvez les créneaux de disponibilités entre plusieurs personnes.
