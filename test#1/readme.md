@@ -1,4 +1,4 @@
-# Test d'algorithmique
+# Test #1 (Algo - Calendrier)
 
 ## Objectif
 Il s'agit d'un véritable problème auquel nous avons été confronté 🤔 : comment trouvez les créneaux de disponibilités entre plusieurs personnes.
@@ -25,7 +25,7 @@ A partir de l'API de Google Calendar, il est possible de récupérer les `busy s
 ```
 Donc dans l'exemple ci-dessus, il faut comprendre que Sandra est occupée le 1er septembre entre 12h et 14h et le lendemain de 8h à 16h.
 
-Pas besoin de vous connecter à l'API de Google, on vous a préparé 2 tableaux avec les busy slots de Sandra (`sandra_busy_slots`) et Andy (`andy_busy_slots`).
+Pas besoin de vous connecter à l'API de Google, on vous a préparé 2 tableaux avec les busy slots de Sandra (`input_sandra.json`) et Andy (`input_andy.json`).
 
 👉 Que devez-vous faire ?
 A partir des 2 tableaux et à partir de la durée du créneau souhaité (par exemple 1h) vous devez créer une méthode qui retourne **les créneaux disponibles**.
