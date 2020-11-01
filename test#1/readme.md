@@ -39,4 +39,4 @@ Quelques hypothèses pour vous simplifier la vie
 ---
 Bonne chance 💪!
 
-Si tu as la moindre question ✉️ recrutement-tech@workelo.eu
+> Si tu as la moindre question ✉️ recrutement-tech@workelo.eu
