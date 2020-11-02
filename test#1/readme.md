@@ -23,7 +23,7 @@ A partir de l'API de Google Calendar, il est possible de récupérer les `busy s
   ...
 ]
 ```
-Donc dans l'exemple ci-dessus, il faut comprendre que Sandra est occupée le 1er septembre entre 12h et 14h et le lendemain de 8h à 16h.
+Donc dans l'exemple ci-dessus, il faut comprendre que Sandra est occupée le 1er septembre entre 12h et 14h et le lendemain de 8h30 à 16h.
 
 Pas besoin de vous connecter à l'API de Google, on vous a préparé 2 tableaux avec les busy slots de Sandra ([`input_sandra.json`](https://github.com/Workelo/workelo-test/blob/master/test%231/input_sandra.json)) et Andy ([`input_andy.json`](https://github.com/Workelo/workelo-test/blob/master/test%231/input_andy.json)).
 
