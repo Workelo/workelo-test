@@ -1,7 +1,5 @@
 # Test de recrutement Fullstack - Partie JS
 ```
-git clone git@github.com:Workelo/workelo-test-js.git
-cd workelo-test-js
 yarn install
 yarn start
 ```
