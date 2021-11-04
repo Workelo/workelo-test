@@ -9,7 +9,6 @@ L'idée des **2 tests** qui suivent et de couvrir certains aspects du métier de
 Quoi qu'il en soit, on aura l'occasion de se parler du code que tu vas proposer, dans une **code review ultérieure** pour que tu nous expliques comment tu as approché le problème, les choix que tu as pu faire et les difficultés que tu as rencontrées.
 
 Il n'y a pas de timing imposé, **envoie nous un message à recrutement-tech@workelo.eu lorsque tu as terminé**.
-L'idée cependant n'est pas d'y passer un week-end - en moyenne il faut compter entre 90 - 120min.
 
 1️⃣ Le [**test #1**](https://github.com/Workelo/workelo-test/tree/master/test%231) est le plus long, c'est celui qui demandera de produire quelques lignes de code 😉
 
