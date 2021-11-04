@@ -21,4 +21,4 @@ Il n'y a pas de timing imposé, **envoie nous un message à recrutement-tech@wor
 ---
 Bonne chance 💪 !
 
-> Si vous avez la moindre question, ✉️ recrutement-tech@workelo.eu
+> Si tu as la moindre question, en particulier si tu ne comprends pas ce qu'on attends de toi, n'hésites pas à nous faire signe : ✉️ recrutement-tech@workelo.eu
