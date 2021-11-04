@@ -15,6 +15,4 @@ Voici les consignes de cet exercice :
 - Faire fonctionner les boutons "PREVIOUS" et "NEXT"
 - Après avoir finalisé le quiz, afficher la liste des réponses avec le label des réponses sélectionnées
 
-Il n'y a pas de timing imposé, envoie nous un message à recrutement-tech@workelo.eu lorsque tu as terminé. L'idée cependant n'est pas d'y passer un week-end - en moyenne il faut compter entre 1 à 2h.
-
 Même si ce quiz concerne Stimulus, ce n'est évidemment pas un vrai quiz et nous ne recevront aucunes réponses 😉
