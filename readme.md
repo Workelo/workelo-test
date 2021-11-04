@@ -14,6 +14,10 @@ Il n'y a pas de timing imposé, **envoie nous un message à recrutement-tech@wor
 
 2️⃣ Le [**test #2**](https://github.com/Workelo/workelo-test/tree/master/test%232) ne nécessite aucune ligne de code mais plus tôt que tu expliques comment tu organiserais la fonctionnalité (avec des mots, un dessin, ... ce que tu veux)
 
+3️⃣ Le [**test #3**](https://github.com/Workelo/workelo-test/tree/master/test%233) est un exercice front sur du stimulus.
+
+4️⃣ Le [**test #4**](https://github.com/Workelo/workelo-test/tree/master/test%234) a pour but de mesurer tes connaissances sur RSpec. 
+
 ---
 Bonne chance 💪!
 
