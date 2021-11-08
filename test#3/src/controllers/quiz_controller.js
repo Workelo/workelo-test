@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["page1", "page2", "page3", "results", "answer"]
+  static targets = ["page1", "page2", "page3", "results", "answerA", "answerB", "answerC", "answerD"]
 
   goTo2() {
     this.page1Target.classList.add("d-none")
@@ -25,12 +25,8 @@ export default class extends Controller {
     this.page3Target.classList.add("d-none")
     this.resultsTarget.classList.remove("d-none")
   }
-
-  select() {
-    console.log(this.answerTargets)
-    this.answerTargets.forEach((answer) => {
-      console.log(answer)
-    });
-
+  select(event) {
+    event.explicitOriginalTarget.classList.toggle("selected")
   }
+
 }
