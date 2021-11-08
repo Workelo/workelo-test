@@ -27,9 +27,9 @@ export default class extends Controller {
   }
 
   select() {
+    console.log(this.answerTargets)
     this.answerTargets.forEach((answer) => {
       console.log(answer)
-      answer.classList.toggle("selected")
     });
 
   }

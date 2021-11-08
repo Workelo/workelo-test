@@ -14,7 +14,7 @@
     <div>
 
     </div>
-        <div id="quiz-page-1" class="quiz-page padded-20px" data-quiz-target = 'page1'>
+        <div id="quiz-page-1" class="quiz-page padded-20px" data-quiz-target = 'page1' data-controller="quiz1-answer-selector">
           <div class="quiz-header">
             <div id="quizz-title" class="text-overflow text-uppercase-spacing no-padding" style="font-size: 16px;">STIMULUS QUIZ</div>
           </div>
@@ -31,19 +31,19 @@
             <h2 class="text-normal text-blue-dark text-center margin-top-40px margin-bottom-40px" style="white-space: pre-line;">What language does Stimulus JS come from ?</h2>
 
             <div class="margin-top-20px margin-bottom-50px">
-              <div class="quiz-answers-card d-flex link-decoration-none " data-quiz-target = 'answer' data-action="click->quiz#select">
+              <div class="quiz-answers-card d-flex link-decoration-none " data-quiz1-answer-selector-target = 'answerA' data-action="click->quiz1-answer-selector#selectA">
                 <div class="quiz-answers-letter possible-answer">A</div>
                 <p class="text-lighter no-margin">Ruby</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz-target = 'answer' data-action="click->quiz#select">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz1-answer-selector-target = 'answerB' data-action="click->quiz1-answer-selector#selectB">
                 <div class="quiz-answers-letter possible-answer">B</div>
                 <p class="text-lighter no-margin">Java</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz-target = 'answer' data-action="click->quiz#select">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz1-answer-selector-target = 'answerC' data-action="click->quiz1-answer-selector#selectC">
                 <div class="quiz-answers-letter possible-answer">C</div>
                 <p class="text-lighter no-margin">JavaScript</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz-target = 'answer' data-action="click->quiz#select">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz1-answer-selector-target = 'answerD' data-action="click->quiz1-answer-selector#selectD">
                 <div class="quiz-answers-letter possible-answer">D</div>
                 <p class="text-lighter no-margin">Python</p>
               </div>
