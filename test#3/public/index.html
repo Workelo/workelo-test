@@ -11,9 +11,6 @@
 </head>
 <body>
   <section class="bg-white margin-bottom-80px margin-top-40px" style="min-height: 605px;max-width: 900px;margin: auto;" data-controller="quiz">
-    <div>
-
-    </div>
         <div id="quiz-page-1" class="quiz-page padded-20px" data-quiz-target = 'page1' data-controller="quiz1-answer-selector">
           <div class="quiz-header">
             <div id="quizz-title" class="text-overflow text-uppercase-spacing no-padding" style="font-size: 16px;">STIMULUS QUIZ</div>
@@ -56,7 +53,7 @@
           </div>
         </div>
 
-        <div id="quiz-page-2" class="quiz-page padded-20px d-none" data-quiz-target = 'page2'>
+        <div id="quiz-page-2" class="quiz-page padded-20px d-none" data-quiz-target = 'page2' data-controller="quiz2-answer-selector">
           <div class="quiz-header">
             <div id="quizz-title" class="text-overflow text-uppercase-spacing no-padding" style="font-size: 16px;">STIMULUS QUIZ</div>
           </div>
@@ -74,15 +71,15 @@
             <h2 class="text-normal text-blue-dark text-center margin-top-40px margin-bottom-40px" style="white-space: pre-line;">How to declare a target element in stimulus ?</h2>
 
             <div class="margin-top-20px margin-bottom-50px">
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz2-answer-selector-target = 'answerA' data-action="click->quiz2-answer-selector#selectA">
                 <div class="quiz-answers-letter possible-answer">A</div>
                 <p class="text-lighter no-margin">data-controller-target="target"</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz2-answer-selector-target = 'answerB' data-action="click->quiz2-answer-selector#selectB">
                 <div class="quiz-answers-letter possible-answer">B</div>
                 <p class="text-lighter no-margin">data-target-controller="target"</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz2-answer-selector-target = 'answerC' data-action="click->quiz2-answer-selector#selectC">
                 <div class="quiz-answers-letter possible-answer">C</div>
                 <p class="text-lighter no-margin">target-data="target.controller"</p>
               </div>
@@ -95,7 +92,7 @@
           </div>
         </div>
 
-        <div id="quiz-page-3" class="quiz-page padded-20px d-none" data-quiz-target = 'page3'>
+        <div id="quiz-page-3" class="quiz-page padded-20px d-none" data-quiz-target = 'page3' data-controller="quiz3-answer-selector">
           <div class="quiz-header">
             <div id="quizz-title" class="text-overflow text-uppercase-spacing no-padding" style="font-size: 16px;">STIMULUS QUIZ</div>
           </div>
@@ -112,15 +109,15 @@
             <h2 class="text-normal text-blue-dark text-center margin-top-40px margin-bottom-40px" style="white-space: pre-line;">Which method is automatically called when a controller is initialised ?</h2>
 
             <div class="margin-top-20px margin-bottom-50px">
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz3-answer-selector-target = 'answerA' data-action="click->quiz3-answer-selector#selectA">
                 <div class="quiz-answers-letter possible-answer">A</div>
                 <p class="text-lighter no-margin">Constructor</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz3-answer-selector-target = 'answerB' data-action="click->quiz3-answer-selector#selectB">
                 <div class="quiz-answers-letter possible-answer">B</div>
                 <p class="text-lighter no-margin">Connect</p>
               </div>
-              <div class="quiz-answers-card d-flex link-decoration-none">
+              <div class="quiz-answers-card d-flex link-decoration-none" data-quiz3-answer-selector-target = 'answerC' data-action="click->quiz3-answer-selector#selectC">
                 <div class="quiz-answers-letter possible-answer">C</div>
                 <p class="text-lighter no-margin">Initialize</p>
               </div>
