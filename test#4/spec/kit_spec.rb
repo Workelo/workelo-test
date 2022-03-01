@@ -7,7 +7,6 @@ RSpec.describe Kit, '#position' do
   end
 end
 
-
 RSpec.describe Kit, '#draggable?' do
   it "should return a boolean" do
     kit = Kit.new
