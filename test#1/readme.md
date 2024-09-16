@@ -28,7 +28,7 @@ Donc dans l'exemple ci-dessus, il faut comprendre que Sandra est occupée le 1er
 Pas besoin de te connecter à l'API de Google, on  t'a préparé 2 tableaux avec les busy slots de Sandra ([`input_sandra.json`](https://github.com/Workelo/workelo-test/blob/master/test%231/input_sandra.json)) et Andy ([`input_andy.json`](https://github.com/Workelo/workelo-test/blob/master/test%231/input_andy.json)).
 
 ## **👉 Que dois-tu faire ?**\
-A partir des 2 tableaux et de la durée du créneau souhaité (par exemple 1h), tu dois créer une méthode (ou un objet) qui retourne les **créneaux disponibles**, sur la semaine.
+A partir des 2 tableaux et de la durée du créneau souhaité (par exemple 1h), tu dois faire un script Ruby qui retournera les **créneaux disponibles**, sur la semaine.
 
 **Quelques hypothèses pour te simplifier la vie**
 1. une journée professionnelle commence à 9h et se termine à 18h
