@@ -18,7 +18,7 @@
     "@hotwired/stimulus-webpack-helpers": "^1.0.0",
     "babel-loader": "^8.1.0",
     "chokidar": "^3.4.1",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "webpack": "^4.43.0",
     "webpack-dev-middleware": "^3.7.2"
   }
