@@ -20,6 +20,6 @@
     "chokidar": "^3.4.1",
     "express": "^4.17.1",
     "webpack": "^4.43.0",
-    "webpack-dev-middleware": "^3.7.2"
+    "webpack-dev-middleware": "^5.3.4"
   }
 }
